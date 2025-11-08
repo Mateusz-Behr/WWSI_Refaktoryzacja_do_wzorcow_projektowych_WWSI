@@ -21,24 +21,24 @@ namespace RefactoringToDesignPatterns.CH01_CodeSmells.Solutions_Mateusz_Behr
         void ExportData();
     }
 
-    public class FileLogger : BaseLogger
+    public class FileLogger : ILogger
     {
-        public override void LogMessage() { /* Implementacja dla pliku */ }
+        public void LogMessage() { /* Implementacja dla pliku */ }
     }
 
-    public class DatabaseLogger : BaseLogger
+    public class DatabaseLogger : ILogger
     {
-        public override void LogMessage() { /* Implementacja dla bazy danych */ }
+        public void LogMessage() { /* Implementacja dla bazy danych */ }
     }
 
-    public class XmlExporter : BaseExporter
+    public class XmlExporter : IExporter
     {
-        public override void ExportData() { /* Implementacja dla XML */ }
+        public void ExportData() { /* Implementacja dla XML */ }
     }
 
-    public class JsonExporter : BaseExporter
+    public class JsonExporter : IExporter
     {
-        public override void ExportData() { /* Implementacja dla JSON */ }
+        public void ExportData() { /* Implementacja dla JSON */ }
     }
 
  

@@ -365,7 +365,8 @@ Przykładowy docelowy kod wynikowy w pliku `16.ParallelInheritanceHierarchies.cs
 
 #### Feature Envy (Zazdrość o funkcje)
 
-Masz metodę CalculateShippingCost w klasie Order odwołującą się do danych klasy ShippingDetails częściej niż do własnych danych. Twoim zadaniem jest przeniesienie metody CalculateShippingCost do klasy ShippingDetails.
+Masz metodę CalculateShippingCost w klasie Order odwołującą się do danych klasy ShippingDetails częściej niż do własnych danych. 
+Twoim zadaniem jest przeniesienie metody CalculateShippingCost do klasy ShippingDetails.
 
 Kod do refaktoryzacji:
 
@@ -407,7 +408,8 @@ Przykładowy docelowy kod wynikowy w pliku `17.FeatureEnvy.cs`.
 
 #### God Class (Klasa Boga)
 
-Masz klasę AdminPanel, która zarządza użytkownikami, konfiguracjami systemu, rejestruje logi i generuje raporty systemowe. Twoim zadaniem jest podzielenie tej klasy na mniejsze klasy o bardziej określonych odpowiedzialnościach.
+Masz klasę AdminPanel, która zarządza użytkownikami, konfiguracjami systemu, rejestruje logi i generuje raporty systemowe. 
+Twoim zadaniem jest podzielenie tej klasy na mniejsze klasy o bardziej określonych odpowiedzialnościach.
 
 Kod do refaktoryzacji:
 
@@ -447,7 +449,8 @@ Przykładowy docelowy kod wynikowy w pliku `18.GodClass.cs`.
 
 #### Switch Statements (Instrukcje warunkowe)
 
-Masz metodę DeterminePaymentFee w klasie Payment z wieloma instrukcjami switch/case, która obsługuje różne metody płatności. Twoim zadaniem jest zastosowanie wzorca strategii, aby uniknąć nadmiarowych instrukcji warunkowych.
+Masz metodę DeterminePaymentFee w klasie Payment z wieloma instrukcjami switch/case, która obsługuje różne metody płatności. 
+Twoim zadaniem jest zastosowanie wzorca strategii, aby uniknąć nadmiarowych instrukcji warunkowych.
 
 Kod do refaktoryzacji:
 
@@ -485,7 +488,8 @@ Przykładowy docelowy kod wynikowy w pliku `19.SwitchStatements.cs`.
 
 #### Large Class (Duża klasa)
 
-Masz klasę WarehouseManager, która zarządza zamówieniami, inwentaryzacją, dostawami, i zwrotami. Twoim zadaniem jest podzielenie tej klasy na mniejsze klasy o bardziej określonych odpowiedzialnościach.
+Masz klasę WarehouseManager, która zarządza zamówieniami, inwentaryzacją, dostawami, i zwrotami. 
+Twoim zadaniem jest podzielenie tej klasy na mniejsze klasy o bardziej określonych odpowiedzialnościach.
 
 Kod do refaktoryzacji:
 
@@ -525,7 +529,8 @@ Przykładowy docelowy kod wynikowy w pliku `20.LargeClass.cs`.
 
 #### Primitive Obsession (Opętanie typami prostymi)
 
-Masz metodę RegisterProduct w klasie ProductManager, która przyjmuje wiele parametrów związanych z produktem (name, category, price, quantity). Twoim zadaniem jest utworzenie nowej klasy ProductDetails i zastąpienie parametrów odpowiednim obiektem.
+Masz metodę RegisterProduct w klasie ProductManager, która przyjmuje wiele parametrów związanych z produktem (name, category, price, quantity). 
+Twoim zadaniem jest utworzenie nowej klasy ProductDetails i zastąpienie parametrów odpowiednim obiektem.
 
 Kod do refaktoryzacji:
 
@@ -550,7 +555,8 @@ Przykładowy docelowy kod wynikowy w pliku `21.PrimitiveObsession.cs`.
 
 #### Data Class (Klasa danych)
 
-Masz klasę Product z właściwościami, które są tylko publicznymi polami przechowującymi dane. Twoim zadaniem jest dodanie metod zawierających logikę biznesową dotyczącą danych przechowywanych w tej klasie.
+Masz klasę Product z właściwościami, które są tylko publicznymi polami przechowującymi dane. 
+Twoim zadaniem jest dodanie metod zawierających logikę biznesową dotyczącą danych przechowywanych w tej klasie.
 
 Kod do refaktoryzacji:
 
@@ -574,7 +580,8 @@ Przykładowy docelowy kod wynikowy w pliku `22.DataClass.cs`.
 
 #### Comments (Komentarze)
 
-Masz metodę PerformTransaction z kilkoma komentarzami opisującymi kroki transakcji. Twoim zadaniem jest przekształcenie komentarzy w bardziej opisowe nazwy metod.
+Masz metodę PerformTransaction z kilkoma komentarzami opisującymi kroki transakcji. 
+Twoim zadaniem jest przekształcenie komentarzy w bardziej opisowe nazwy metod.
 
 Kod do refaktoryzacji:
 
@@ -618,7 +625,8 @@ Przykładowy docelowy kod wynikowy w pliku `Comments.cs`.
 
 #### Middle Man (Pośrednik)
 
-Masz klasę InvoiceService, która jedynie deleguje wywołania metod do klasy InvoiceRepository. Twoim zadaniem jest usunięcie klasy pośrednika i bezpośrednie użycie klasy InvoiceRepository.
+Masz klasę InvoiceService, która jedynie deleguje wywołania metod do klasy InvoiceRepository. 
+Twoim zadaniem jest usunięcie klasy pośrednika i bezpośrednie użycie klasy InvoiceRepository.
 
 Kod do refaktoryzacji:
 
@@ -650,7 +658,8 @@ Przykładowy docelowy kod wynikowy w pliku `24.MiddleMan.cs`.
 
 #### Long Method (Długa metoda)
 
-Masz klasy Teacher i GradeBook, gdzie Teacher bezpośrednio modyfikuje prywatne pola klasy GradeBook. Twoim zadaniem jest usunięcie tej "zażyłości" i poprawienie struktury kodu.
+Masz klasy Teacher i GradeBook, gdzie Teacher bezpośrednio modyfikuje prywatne pola klasy GradeBook. 
+Twoim zadaniem jest usunięcie tej "zażyłości" i poprawienie struktury kodu.
 
 Kod do refaktoryzacji:
 
@@ -694,7 +703,8 @@ Przykładowy docelowy kod wynikowy w pliku `25.LongMethod.cs`.
 
 #### Speculative Generality (Spekulacyjna ogólność)
 
-Masz klasę AdvancedHandler, która zawiera wiele metod zaprojektowanych z myślą o potencjalnych przyszłych wymaganiach, ale żadna z tych metod nie jest używana. Twoim zadaniem jest uproszczenie tej klasy, usuwając zbędną ogólność.
+Masz klasę AdvancedHandler, która zawiera wiele metod zaprojektowanych z myślą o potencjalnych przyszłych wymaganiach, 
+ale żadna z tych metod nie jest używana. Twoim zadaniem jest uproszczenie tej klasy, usuwając zbędną ogólność.
 
 Kod do refaktoryzacji:
 
