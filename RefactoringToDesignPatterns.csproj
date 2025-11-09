@@ -15,4 +15,8 @@
     <None Include="CH01_CodeSmells\Solutions\RefusedBequest.cs" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.4" />
+  </ItemGroup>
+
 </Project>
