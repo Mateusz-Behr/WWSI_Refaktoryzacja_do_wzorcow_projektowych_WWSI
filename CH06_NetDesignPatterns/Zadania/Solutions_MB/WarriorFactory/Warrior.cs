@@ -18,6 +18,9 @@ namespace RefactoringToDesignPatterns.CH06_NetDesignPatterns.Zadania.Solutions_M
             Weapon = weapon;
         }
 
-        public abstract void Attack();
+        public virtual void Attack()
+        {
+            Console.WriteLine($"{Name} attacks with {Weapon}");
+        }
     }
 }

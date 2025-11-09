@@ -762,7 +762,8 @@ Przykładowy docelowy kod wynikowy w pliku `27.LazyClass.cs`.
 
 #### Shotgun Surgery (Operacja "strzał na oślep")
 
-Masz klasy Customer i Order, gdzie zarówno Customer jak i Order mają metody dotyczące logiki zamówienia. Twoim zadaniem jest skoncentrowanie odpowiedzialności dotyczących zamówienia w jednej klasie.
+Masz klasy Customer i Order, gdzie zarówno Customer jak i Order mają metody dotyczące logiki zamówienia. \
+Twoim zadaniem jest skoncentrowanie odpowiedzialności dotyczących zamówienia w jednej klasie.
 
 Kod do refaktoryzacji:
 

@@ -8,11 +8,6 @@ namespace RefactoringToDesignPatterns.CH01_CodeSmells.Solutions_Mateusz_Behr
 {
     public class AdvancedHandler
     {
-        public void HandleRequest(object request)
-        {
-            // Ogólna logika przetwarzania, która nigdy nie jest używana
-        }
-
         public void HandleHttpRequest(HttpRequest request)
         {
             Console.WriteLine($"Handling HTTP request: {request.Url}");

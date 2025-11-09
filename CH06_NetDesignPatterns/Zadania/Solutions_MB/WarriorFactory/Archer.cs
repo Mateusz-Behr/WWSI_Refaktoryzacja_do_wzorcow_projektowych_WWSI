@@ -6,7 +6,16 @@ using System.Threading.Tasks;
 
 namespace RefactoringToDesignPatterns.CH06_NetDesignPatterns.Zadania.Solutions_MB.WarriorFactory
 {
-    internal class Archer
+    public class Archer : Warrior
     {
+        public Archer(string name, int age, string weapon) : base(name, age, weapon)
+        {
+
+        }
+
+        public override void Attack()
+        {
+            Console.WriteLine($"{Name} shoots with {Weapon}");
+        }
     }
 }
