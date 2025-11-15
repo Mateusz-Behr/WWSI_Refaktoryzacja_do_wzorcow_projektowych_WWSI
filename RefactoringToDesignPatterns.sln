@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RefactoringToDesignPatterns
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SantaClausFactoryLive", "..\SantaClausFactoryLive\SantaClausFactoryLive.csproj", "{022873F3-A4F9-40B7-9D7B-8C3DB6CA657C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FacadePattern", "CH06_NetDesignPatterns\Zadania\Solutions_MB\Facade\FacadePattern\FacadePattern.csproj", "{CA23096B-157F-4D9B-B655-5EF54F9A2913}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{022873F3-A4F9-40B7-9D7B-8C3DB6CA657C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{022873F3-A4F9-40B7-9D7B-8C3DB6CA657C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{022873F3-A4F9-40B7-9D7B-8C3DB6CA657C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA23096B-157F-4D9B-B655-5EF54F9A2913}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA23096B-157F-4D9B-B655-5EF54F9A2913}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA23096B-157F-4D9B-B655-5EF54F9A2913}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA23096B-157F-4D9B-B655-5EF54F9A2913}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
