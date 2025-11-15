@@ -13,7 +13,6 @@ namespace RefactoringToDesignPatterns.CH06_NetDesignPatterns.Zadania.Solutions_M
         private readonly HttpClient _httpClient;
         private const string ApiBaseUrl = "https://api.openweathermap.org/data/2.5/weather";
 
-        // Konstruktor fasady. Wymaga klucza API do OpenWeatherMap.
         public WeatherFacade(string apiKey)
         {
             _apiKey = apiKey;

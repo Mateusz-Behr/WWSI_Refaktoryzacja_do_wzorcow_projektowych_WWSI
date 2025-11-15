@@ -43,8 +43,7 @@ namespace RefactoringToDesignPatterns.CH06_NetDesignPatterns.Zadania.Solutions_M
             }
 
             Console.WriteLine("\nProgram zakończył działanie. Do widzenia!");
-            // Opcjonalnie, jeśli okno konsoli zamyka się zbyt szybko:
-            // Console.ReadKey();
+
         }
     }
 }
