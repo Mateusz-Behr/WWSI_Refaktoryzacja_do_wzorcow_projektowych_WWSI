@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator", "CH06_NetDesign
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Composite", "CH06_NetDesignPatterns\Zadania\Solutions_MB\Composite\Composite.csproj", "{D64FC973-46EF-423F-A2E8-9F6D30C8D852}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flyweight", "CH06_NetDesignPatterns\Zadania\Solutions_MB\Flyweight\Flyweight.csproj", "{31E67A5F-6D52-436B-BAB4-10C296FD5242}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{D64FC973-46EF-423F-A2E8-9F6D30C8D852}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D64FC973-46EF-423F-A2E8-9F6D30C8D852}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D64FC973-46EF-423F-A2E8-9F6D30C8D852}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31E67A5F-6D52-436B-BAB4-10C296FD5242}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31E67A5F-6D52-436B-BAB4-10C296FD5242}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31E67A5F-6D52-436B-BAB4-10C296FD5242}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31E67A5F-6D52-436B-BAB4-10C296FD5242}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
