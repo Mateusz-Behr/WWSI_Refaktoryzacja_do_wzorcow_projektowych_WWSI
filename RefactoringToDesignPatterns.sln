@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bridge", "CH06_NetDesignPat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator", "CH06_NetDesignPatterns\Zadania\Solutions_MB\Decorator\Decorator.csproj", "{695E6E40-61F5-9B4B-BF34-9E3055193418}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Composite", "CH06_NetDesignPatterns\Zadania\Solutions_MB\Composite\Composite.csproj", "{D64FC973-46EF-423F-A2E8-9F6D30C8D852}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{695E6E40-61F5-9B4B-BF34-9E3055193418}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{695E6E40-61F5-9B4B-BF34-9E3055193418}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{695E6E40-61F5-9B4B-BF34-9E3055193418}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D64FC973-46EF-423F-A2E8-9F6D30C8D852}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D64FC973-46EF-423F-A2E8-9F6D30C8D852}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D64FC973-46EF-423F-A2E8-9F6D30C8D852}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D64FC973-46EF-423F-A2E8-9F6D30C8D852}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
