@@ -8,9 +8,9 @@ namespace RefactoringToDesignPatterns.CH06_NetDesignPatterns.Zadania.Solutions_M
 {
     class Program
     {
-        public async Task Main(string[] args)
+        static async Task Main(string[] args)
         {
-            Console.WriteLine("--- Wyszukiwarka zdjęć z wykorzystaniem wzorca Strategy.");
+            Console.WriteLine("--- Wyszukiwarka zdjęć z wykorzystaniem wzorca Strategy. ---");
 
             const string pexelsApiKey = "GITdW7MzArJW4LUP2rmbXpK1c2BEwjWcnKuPOqBcycBum7U4hzS7aVZh";
             const string pixabayApiKey = "54030712-781c93ab93cb4fe16d6959839";

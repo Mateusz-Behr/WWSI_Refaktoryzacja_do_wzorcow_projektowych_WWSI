@@ -24,7 +24,7 @@ namespace RefactoringToDesignPatterns.CH06_NetDesignPatterns.Zadania.Solutions_M
         public async Task<List<PhotoResult>> SearchPhotos(string category)
         {
             Console.WriteLine("$\n[Pexels Strategy] Wyszukuję zdjęcia kategorii '{category}'...");
-            string requestUrl = $"{ApiBaseUrl}?query={category}%per_page=5";
+            string requestUrl = $"{ApiBaseUrl}?query={category}&per_page=5";
 
             try
             {
